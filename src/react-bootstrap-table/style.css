@@ -1,0 +1,59 @@
+/*强制14px*/
+.react-bs-table-container {
+  font-size: 14px !important;
+  color: #4b4b4b !important;
+}
+
+.react-bs-table-container .react-bs-table-bordered{
+  border-radius: 0;
+}
+
+.table-bordered > thead > tr > th, .table-bordered > thead > tr > td {
+  border-bottom: none;
+}
+
+.react-bs-table-container .table > tbody > tr:hover {
+  background-color: #fdfdfd !important;
+}
+
+.react-bs-table-bordered{
+  border-bottom: none !important;
+  border: 1px solid #f2f2f2;
+}
+
+.react-bs-table-container .table-bordered > tbody > tr > td{
+  border: 1px solid #f2f2f2;
+  border-left: none !important;
+  border-right: none !important;
+}
+
+.react-bs-table-container .table-bordered > thead > tr > th{
+  border-left: none !important;
+  border-right: none !important;
+  background-color: #f9f9f9!important;
+}
+
+.react-bs-table-container .table > tbody > tr > td{
+  padding: 10px 10px 10px 13px;
+}
+
+.react-bs-table-container .table > thead > tr > th {
+  padding: 10px 10px 10px 13px;
+}
+
+.react-bs-table-pagination ul.pagination > li:last-child >a {
+  border-radius: 0;
+}
+
+.react-bs-table-pagination ul.pagination > li:first-child >a {
+  border-radius: 0;
+}
+
+.react-bs-table-pagination ul.pagination > .active > a{
+  background-color: #3ba6e4;
+  border-color: #3ba6e4;
+}
+
+.react-bs-table-pagination ul.pagination > li > a{
+  border: 1px solid #eaeaea;
+}

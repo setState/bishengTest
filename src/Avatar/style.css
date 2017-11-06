@@ -1,0 +1,85 @@
+.ovo-avatar-container {
+  border: 1px dashed #d9d9d9;
+  border-radius: 6px;
+  width: 96px;
+  height: 96px;
+  padding: 24px 0;
+  background-color: #fbfbfb;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: border-color .3s ease;
+  transition: border-color .3s ease;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+}
+
+.ovo-avatar-container:hover {
+  border-color: #2db7f5;
+}
+
+.ovo-avatar-container .ovo-avatar-text {
+  margin-top: 8px;
+  font-size: 12px;
+  color: #666;
+}
+
+.ovo-avatar-container:focus {
+  border: none;
+  outline-color: #fff !important;
+}
+
+.ovo-avatar-container > span {
+  display: block;
+  width: 100%;
+  outline: none;
+}
+
+.ovo-avatar-field:focus {
+  border: none;
+  outline-color: #fff !important;
+}
+
+.ovo-avatar {
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+}
+
+.ovo-avatar .ovo-avatar-field {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 3;
+  transition: all .3s ease;
+  cursor: pointer;
+  opacity: 0;
+  display: block;
+}
+
+.ovo-avatar .ovo-avatar-field .ovo-avatar-container {
+  background-color: #000;
+  padding: 0;
+}
+
+.ovo-avatar .ovo-avatar-container .ovo-avatar-text {
+  color: #fff;
+  margin-top: 0;
+}
+
+.ovo-avatar:hover .ovo-avatar-field {
+  opacity: .8;
+}
+
+.ovo-avatar .ovo-avatar-input-img {
+  border: 1px solid #eee;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;;
+}
+
+.ovo-avatar-uploader-trigger {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 28px;
+  color: #999;
+}

@@ -1,0 +1,11 @@
+.fieldsetCard:last-child {
+  padding-bottom: 1em;
+}
+
+.fieldsetCard .ant-card {
+  border-radius: 0;
+}
+
+.fieldsetCard .ant-card .ant-card-extra {
+  top: 8.5px;
+}

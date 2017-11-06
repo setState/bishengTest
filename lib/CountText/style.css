@@ -1,0 +1,9 @@
+.countText .ant-input-wrapper textarea {
+  margin-bottom: 2px !important;
+}
+
+.countText p {
+  font-size: 14px;
+  text-align: right;
+  margin-bottom: 1rem;
+}
